@@ -28,6 +28,7 @@ RSpec.describe 'Api::V1::Users', type: :request do
       end
 
       it 'Right following number' do
+        binding.pry
         expect(json['following_count']).to eql(following_number)
       end
 

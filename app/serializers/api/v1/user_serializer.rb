@@ -1,5 +1,5 @@
 class Api::V1::UserSerializer < ActiveModel::Serializer
-  attributes :id, :name, :email, :tweets_count, :followers_count, :followers_count
+  attributes :id, :name, :email, :tweets_count, :followers_count, :following_count
 
   def tweets_count
     object.tweets.count

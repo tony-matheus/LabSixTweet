@@ -14,6 +14,8 @@ module Api
       rescue_from CanCan::AccessDenied do |msg|
         render(json: { message: msg}, status: :forbidden)
       end
+
+      serialization_scope :current_user
     end
   end
 end

@@ -61,6 +61,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   # Rspec test auxiliar gem
   gem 'rspec-json_expectations'
+  gem 'pry'
+  gem 'pry-byebug'
   #byebug
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
