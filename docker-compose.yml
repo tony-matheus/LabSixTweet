@@ -14,10 +14,25 @@ services:
     volumes:
       - redis:/var/lib/redis/data
 
+  jobs:
+    depends_on:
+      - "postgres"
+      - "redis"
+      - "app"
+      - "elasticsearch"
+    build: .
+    command: bash start_jobs.sh
+    volumes:
+      - .:/LabSixTweet
+      - box:/box
+    environment:
+      ELASTICSEARCH_URL: elasticsearch:9200
+
   app:
     depends_on:
       - "postgres"
       - "redis"
+      - "elasticsearch"
     build: .
     command: bash start.sh
     ports:
@@ -25,8 +40,21 @@ services:
     volumes:
       - .:/LabSixTweet
       - box:/box
+    environment:
+      ELASTICSEARCH_URL: elasticsearch:9200
+
+
+  elasticsearch:
+    image: "elasticsearch:5"
+    ports:
+      - "9200:9200"
+    volumes:
+      - elastic:/usr/share/elasticsearch/data
+    environment:
+      - Des.network.host=0.0.0.0
 
 volumes:
   redis:
   postgres:
   box:
+  elastic:

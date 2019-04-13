@@ -30,7 +30,10 @@ gem 'acts_as_follower', github: 'tcocca/acts_as_follower', branch: 'master'
 # Like content
 gem 'acts_as_votable', '~> 0.11.1'
 # Integration with Searchkick
+gem 'elasticsearch'
 gem 'searchkick'
+# Job scueduler execution
+gem 'sidekiq-scheduler'
 # Cron programming
 gem 'whenever', :require => false
 # jwt authentication
@@ -39,7 +42,9 @@ gem 'knock', '~> 2.1', '>= 2.1.1'
 gem 'active_model_serializers'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'carrierwave'
+gem 'carrierwave-base64'
+gem 'cloudinary'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
