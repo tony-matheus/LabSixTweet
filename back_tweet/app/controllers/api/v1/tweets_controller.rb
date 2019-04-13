@@ -1,7 +1,7 @@
 module Api
   module V1
-    class TweetsController < Api::V1::ApiController #>
-      before_action {current_user}
+    class TweetsController < Api::V1::ApiController # >
+      before_action { current_user }
       before_action :set_tweet, except: %i[create index]
       before_action :authenticate_user, except: [:show, :index]
       load_and_authorize_resource except: %i[index show]
@@ -16,9 +16,10 @@ module Api
         @tweet = Tweet.new(tweet_params.merge(user: current_user))
 
         if @tweet.save
+          AddHashtagsJob.perform_later(@tweet.body)
           render json: @tweet, status: :created
         else
-          render json: {errors: @tweet.errors.full_messages}, status: :unprocessable_entity
+          render json: { errors: @tweet.errors.full_messages }, status: :unprocessable_entity
         end
       end
 
@@ -34,7 +35,7 @@ module Api
         if @tweet.update(tweet_params)
           render json: @tweet
         else
-          render json: {errors: @tweet.errors.full_messages}, status: :unprocessable_entity
+          render json: { errors: @tweet.errors.full_messages }, status: :unprocessable_entity
         end
       end
 

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
+      get 'trending', to: 'trending#index'
       post 'user_token', to: 'user_token#create'
       get 'search', to: 'search#index'
       get 'autocomplete', to: 'search#autocomplete'
