@@ -20,7 +20,8 @@ services:
       - "redis"
       - "app"
       - "elasticsearch"
-    build: back_tweet
+    build:
+      context: ./back_tweet
     command: bash start_jobs.sh
     volumes:
       - ./back_tweet:/LabSixTweet

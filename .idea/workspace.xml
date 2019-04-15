@@ -2,113 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b970a0-1368-43f2-963a-b5502ad3bf44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client_tweet/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LabSixTweet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LabSixTweet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/Auth/SignIn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/Auth/SignUp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/Hashtag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/HomePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/MainLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/ProfilePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/Timeline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/TrendingTopics/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/TweetUnit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/UserInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/common/InvisibleButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/common/JustifiedText/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/components/common/RowNoBottomMargin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/HomePageContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/UserFollow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/containers/UserUnFollow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/images/fake_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/images/logo_twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_tweet/src/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rspec" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/.rspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/.ruby-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/follows_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/likes_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/search_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/timeline_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/tweets_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/user_token_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ability.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/follow.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tweet.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/api/v1/tweet_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/api/v1/user_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/uploaders/photo_uploader.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cloudinary.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/knock.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/rack_attack.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/redis.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/sidekiq.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/will_paginate.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sidekiq.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190409204306_acts_as_votable_migration.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190409204332_acts_as_follower_migration.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190410124233_create_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190410171151_create_tweets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190413145610_add_photo_to_user.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/app/controllers/api/v1/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/app/controllers/api/v1/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/app/jobs/update_trendings_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/app/jobs/update_trendings_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/app/serializers/api/v1/user_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/app/serializers/api/v1/user_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/config/sidekiq.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/config/sidekiq.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_tweet/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/back_tweet/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_tweet/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client_tweet/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/api/v1/users_controller_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/tweets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/tweet_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/api/v1/follows_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/api/v1/likes_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/api/v1/tweets_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/api/v1/users_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/support/factory_bot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/support/request_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/support/shared_examples_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_jobs.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -126,19 +86,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client_tweet/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/components/UserInfo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="640">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/configureStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/reducers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="460">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -151,6 +156,12 @@
       <find>token_sec</find>
       <find>eamil</find>
       <find>get_</find>
+      <find>gem 'sidekiq-scheduler'</find>
+      <find>connect</find>
+      <find>connec</find>
+      <find>did</find>
+      <find>react-router-redux</find>
+      <find>react-router-r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,51 +170,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dockerfile" />
-        <option value="$PROJECT_DIR$/start.sh" />
-        <option value="$PROJECT_DIR$/spec/support/factory_bot.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190409204332_acts_as_follower_migration.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/will_paginate.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/redis.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/config/initializers/cors.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/rack_attack.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/user_token_controller.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/knock.rb" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/follows_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/likes_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/factories/users.rb" />
-        <option value="$PROJECT_DIR$/spec/factories/tweets.rb" />
-        <option value="$PROJECT_DIR$/spec/support/request_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/support/shared_examples_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/api/v1/users_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/requests/api/v1/tweets_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/timeline_controller.rb" />
-        <option value="$PROJECT_DIR$/app/uploaders/photo_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/serializers/api/v1/user_serializer.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/search_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/tweet.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/serializers/api/v1/tweet_serializer.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/start_jobs.sh" />
-        <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
-        <option value="$PROJECT_DIR$/config/sidekiq.yml" />
-        <option value="$PROJECT_DIR$/config.ru" />
-        <option value="$PROJECT_DIR$/app/jobs/add_hashtags_job.rb" />
-        <option value="$PROJECT_DIR$/app/jobs/update_trendings_job.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/trending_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/tweets_controller.rb" />
-        <option value="$PROJECT_DIR$/client_tweet/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/reducer.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/HomePageContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/Auth/SignIn/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/.env" />
+        <option value="$PROJECT_DIR$/client_tweet/src/api.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/Auth/SignUp/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/HomePage/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/PrivateRoute/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/HeaderContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/Header/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/MainLayout/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/Auth/reducer.js" />
+        <option value="$PROJECT_DIR$/back_tweet/app/controllers/api/v1/users_controller.rb" />
+        <option value="$PROJECT_DIR$/back_tweet/app/serializers/api/v1/user_serializer.rb" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/ProfileEdit/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/action.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/reducer.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/reducer.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/App.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/TweetUnit/index.js" />
+        <option value="$PROJECT_DIR$/back_tweet/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/Timeline/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/TweetNew/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/reducer.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/index.css" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/actions.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/reducer.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/constants.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/components/UserInfo/index.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/configureStore.js" />
+        <option value="$PROJECT_DIR$/client_tweet/src/reducers.js" />
       </list>
     </option>
   </component>
@@ -218,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,32 +245,126 @@
             <path>
               <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
               <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
-              <item name="back_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
               <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
               <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Timeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TweetNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="TweetUnit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfileEditContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfilePageContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="TimelineContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="TweetListContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabSixTweet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSixTweet" type="462c0819:PsiDirectoryNode" />
+              <item name="client_tweet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInfoContainer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client_tweet/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client_tweet/src/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client_tweet/src/images" />
       <recent name="$PROJECT_DIR$/back_tweet" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/config" />
@@ -372,16 +481,18 @@
       <workItem from="1554935622189" duration="1716000" />
       <workItem from="1555070903046" duration="80000" />
       <workItem from="1555166071335" duration="9083000" />
+      <workItem from="1555258000293" duration="3964000" />
+      <workItem from="1555263512464" duration="19248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20177000" />
+    <option name="totallyTimeSpent" value="43389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -394,7 +505,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5955787" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4226268" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32119635" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -407,324 +518,432 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/factory_bot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/knock.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/rack_attack.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190409204332_acts_as_follower_migration.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/user_token_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/api/v1/follows_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/request_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/shared_examples_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/HomePageContainer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="276">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/api/v1/likes_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/tweets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/api/v1/tweets_spec.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/Auth/SignIn/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="232" column="5" selection-start-line="232" selection-start-column="5" selection-end-line="232" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/follow.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/api/v1/users_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3543">
-          <caret line="265" column="44" lean-forward="true" selection-start-line="265" selection-start-column="44" selection-end-line="265" selection-end-column="44" />
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
-            <element signature="e#3880#4700#0" />
-            <element signature="e#4736#6080#0" />
-            <element signature="e#6137#7247#0" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/follows_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/likes_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/timeline_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/SignInContainer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="437">
+          <caret line="19" column="31" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/photo_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/HomePage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="663">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/api/v1/user_serializer.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TrendingTopicsContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/Auth/SignUp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/SignUpContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/PrivateRoute/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/HeaderContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/MainLayout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_tweet/app/controllers/api/v1/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_tweet/app/serializers/api/v1/user_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/Auth/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#1287#1337#0" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/search_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/ProfileEdit/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="663">
+          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tweet.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/api/v1/tweet_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start_jobs.sh">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/sidekiq.yml">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/add_hashtags_job.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/update_trendings_job.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/trending_controller.rb">
+    <entry file="file://$PROJECT_DIR$/back_tweet/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
+        <state relative-caret-position="-680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/TweetUnit/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="663">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="966">
+          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/tweets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
-          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client_tweet/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfilePageContainer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="759">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/back_tweet/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="203">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/Timeline/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/TweetNew/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TweetListContainer/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/ProfileEditContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/TimelineContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/components/UserInfo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/containers/UserInfoContainer/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client_tweet/src/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
